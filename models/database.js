@@ -1,7 +1,8 @@
 // connect your application to mongodb server
 
 const mongoose = require("mongoose"); //npm i mongoose
-const url = "mongodb://localhost:27017";
+const url =
+  "mongodb+srv://vaibhavbhosale1010:XbqE9VmXw2IrGx12@taskdata.2ftkly2.mongodb.net/";
 
 mongoose.connect(url); //create default connection
 
